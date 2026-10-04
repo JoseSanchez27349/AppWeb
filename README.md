@@ -39,7 +39,7 @@ Es el usuario encargado de gestionar la operación del comercio desde la consola
 
 ---
 
-## 🔗 Identificación del Backend y API Centralizada
+## Identificación del Backend y API Centralizada
 
 La consola web se comunica con la API Backend mediante servicios centralizados de Angular[cite: 5, 10]:
 
@@ -58,7 +58,7 @@ La consola web se comunica con la API Backend mediante servicios centralizados d
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 proyecto-web/
