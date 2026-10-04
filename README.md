@@ -1,4 +1,4 @@
-# 🛒 Plataforma E-Commerce — Aplicación Web Administrativa
+# Plataforma E-Commerce — Aplicación Web Administrativa
 
 Este repositorio contiene la **Aplicación Web Administrativa** desarrollada para la gestión del comercio electrónico, permitiendo al personal administrativo controlar productos, categorías, pedidos y asignación de entregas.
 
@@ -11,14 +11,14 @@ Este repositorio contiene la **Aplicación Web Administrativa** desarrollada par
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **Framework Frontend:** Angular (TypeScript)[cite: 1]
 - **Lógica de Estado y Peticiones:** RxJS + `HttpClientModule`
 - **Estilos:** CSS3 / Bootstrap / Tailwind CSS
 - **Arquitectura:** Cliente-Servidor desacoplada mediante consumo de API REST Backend[cite: 5, 10]
 ---
 
-## 📋 Perfil de Usuario y Requerimientos Cubiertos
+## Perfil de Usuario y Requerimientos Cubiertos
 
 ### Perfil: Administrador[cite: 7]
 Es el usuario encargado de gestionar la operación del comercio desde la consola web[cite: 7].
