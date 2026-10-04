@@ -4,26 +4,26 @@ Este repositorio contiene la **Aplicación Web Administrativa** desarrollada par
 
 ---
 - **Integrantes del Equipo:**
-  - José Armando Abarca Sánchez[cite: 1]
-  - Isaac Alejandro Padrón Becerra[cite: 1]
-  - Jorge Alexis Ramos Equihua[cite: 1]
-  - Leticia Guadalupe[cite: 1]
+  - José Armando Abarca Sánchez
+  - Isaac Alejandro Padrón Becerra
+  - Jorge Alexis Ramos Equihua
+  - Leticia Guadalupe
 
 ---
 
 ## Tecnologías Utilizadas
-- **Framework Frontend:** Angular (TypeScript)[cite: 1]
+- **Framework Frontend:** Angular (TypeScript)
 - **Lógica de Estado y Peticiones:** RxJS + `HttpClientModule`
 - **Estilos:** CSS3 / Bootstrap / Tailwind CSS
-- **Arquitectura:** Cliente-Servidor desacoplada mediante consumo de API REST Backend[cite: 5, 10]
+- **Arquitectura:** Cliente-Servidor desacoplada mediante consumo de API REST Backend
 ---
 
 ## Perfil de Usuario y Requerimientos Cubiertos
 
 ### Perfil: Administrador[cite: 7]
-Es el usuario encargado de gestionar la operación del comercio desde la consola web[cite: 7].
+Es el usuario encargado de gestionar la operación del comercio desde la consola web
 
-#### Requerimientos Funcionales Implementados (RF-ADM)[cite: 9]:
+#### Requerimientos Funcionales Implementados (RF-ADM):
 - **RF-ADM-01 (Autenticación Administrativa):** Acceso seguro mediante credenciales de perfil elevado[cite: 9].
 - **RF-ADM-03 (Gestión de Categorías):** Crear, editar, listar y desactivar categorías de productos[cite: 9].
 - **RF-ADM-04 (Gestión de Productos):** Alta de productos, modificación de precios, imágenes, descripciones y control de stock[cite: 9].
@@ -32,7 +32,7 @@ Es el usuario encargado de gestionar la operación del comercio desde la consola
 - **RF-ADM-07 (Control Manual de Estados):** Modificación del estado de los pedidos ante contingencias o cancelaciones[cite: 9].
 - **RF-ADM-08 (Reportes e Información de Ventas):** Dashboard e informes de ventas y flujo operacional[cite: 10].
 
-#### Requerimientos No Funcionales (RNF-ADM)[cite: 10]:
+#### Requerimientos No Funcionales (RNF-ADM):
 - **RNF-ADM-01:** Compatibilidad multiplataforma en navegadores (Chrome, Firefox, Edge, Safari)[cite: 10].
 - **RNF-ADM-02:** Usabilidad operativa con mensajes de confirmación/error tras cada acción[cite: 10].
 - **RNF-ADM-03:** Control de acceso estricto mediante tokens JWT para impedir accesos no autorizados[cite: 10].
@@ -43,7 +43,7 @@ Es el usuario encargado de gestionar la operación del comercio desde la consola
 
 La consola web se comunica con la API Backend mediante servicios centralizados de Angular[cite: 5, 10]:
 
-- **Tipo de API:** RESTful API sobre protocolo HTTPS[cite: 5, 10]
+- **Tipo de API:** RESTful API sobre protocolo HTTPS
 - **Ubicación del Servicio en Código:** `src/app/services/api.service.ts`
 - **Configuración de variables de entorno:** `src/environments/environment.ts`
 - **URL Base (Desarrollo):** `http://localhost:3000/api`
